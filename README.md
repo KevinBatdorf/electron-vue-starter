@@ -9,7 +9,7 @@ I'm using Laravel Spark for the app I'm building alongside, which lets users cre
 Uses Electron Store to communicate with the server, but the server code is used minimially. This is intended for front-end developers. 
 
 ```
-yarn install
+yarn
 npm run start
 ```
 
