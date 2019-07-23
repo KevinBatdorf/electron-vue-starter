@@ -13,6 +13,8 @@ yarn
 npm run start
 ```
 
+Update the url in the config.json file. Until then you can add any API token using the dummy request and it will work. 
+
 ## Defaults
 * Vuejs ([docs](https://vuejs.org/v2/guide/))
 * Vuex ([docs](https://vuex.vuejs.org/))
