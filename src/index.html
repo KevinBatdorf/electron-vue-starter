@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="w-full h-full">
+  <head>
+	  <meta charset="UTF-8">
+	  <title>WP DeployKit</title>
+	  <link rel="stylesheet" href="dist/styles.css">
+  </head>
+  <body class="w-full h-full">
+	<div id="app" class="w-full h-full">
+		<main-app-component inline-template>
+			<div
+				v-if="initializing"
+				class="flex w-full h-full justify-center items-center"
+				style="-webkit-app-region: drag">
+				Loading...
+			</div>
+			<div class="flex h-full" v-else>
+				<sidebar-navigation></sidebar-navigation>
+				<div class="flex flex-col flex-grow">
+					<header-area></header-area>
+					<router-view></router-view>
+				</div>
+			</div>
+		</main-app-component>
+	</div>
+	<script type="text/javascript" src="dist/app.js"></script>
+  </body>
+</html>
